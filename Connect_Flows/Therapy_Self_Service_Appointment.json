@@ -1,0 +1,3002 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "e87d6745-5a92-436f-84c0-e18716f7929f",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "14001f48-9f38-4d82-87f5-4e7fac853a40": {
+        "position": {
+          "x": 1788.8,
+          "y": 483.2
+        }
+      },
+      "ae1338c5-4209-45b6-8ce9-b1d17b20a39d": {
+        "position": {
+          "x": 1531.2,
+          "y": 460.8
+        }
+      },
+      "f8d22adb-ce06-4145-990f-6904caa8e65b": {
+        "position": {
+          "x": 2244.8,
+          "y": -98.4
+        }
+      },
+      "aea75153-cfcf-4991-bb9e-aea75f645f81": {
+        "position": {
+          "x": 2220,
+          "y": 555.2
+        }
+      },
+      "5ebb2fb6-b6e7-412c-baab-a86b353b5626": {
+        "position": {
+          "x": 2234.4,
+          "y": 112
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "403fd463-9e1d-4269-8158-bb74aa246b91": {
+        "position": {
+          "x": 2220.8,
+          "y": 333.6
+        }
+      },
+      "742670b9-b9fc-4d1d-92d6-909edbda3481": {
+        "position": {
+          "x": 3516,
+          "y": 1533.6
+        }
+      },
+      "7560af03-e28d-47be-8903-6ecae36ae228": {
+        "position": {
+          "x": 3258.4,
+          "y": 1511.2
+        }
+      },
+      "5c51ea26-cec9-4f24-964b-eacd82497912": {
+        "position": {
+          "x": 3257.6,
+          "y": 1288.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "77d7f97f-ca40-44b5-a3e8-e8b99846fdc6": {
+        "position": {
+          "x": 3972,
+          "y": 952
+        }
+      },
+      "8f69aaa1-0541-4042-8fd2-e4a3d31a8b18": {
+        "position": {
+          "x": 3196.8,
+          "y": 1080
+        }
+      },
+      "70b32d74-adb5-46f5-b441-77eca56ce2e2": {
+        "position": {
+          "x": 3947.2,
+          "y": 1605.6
+        }
+      },
+      "8e2efe47-3ee7-4b3c-8a4a-88b1fedc1570": {
+        "position": {
+          "x": 3961.6,
+          "y": 1162.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "a922c3ef-91e7-4d9e-8e4d-af24efecb32e": {
+        "position": {
+          "x": 3948,
+          "y": 1384
+        }
+      },
+      "33f643b8-bd47-4a83-915d-45b174282059": {
+        "position": {
+          "x": 1914.4,
+          "y": 1499.2
+        }
+      },
+      "1fafec42-5c49-4e0d-a32e-e060ad6a912c": {
+        "position": {
+          "x": 2345.6,
+          "y": 1571.2
+        }
+      },
+      "bd08bb0e-75d1-4f8e-88dc-b843a1325604": {
+        "position": {
+          "x": 1656.8,
+          "y": 1476.8
+        }
+      },
+      "52d2239e-deee-4663-bb99-99ffecd1f767": {
+        "position": {
+          "x": 1656,
+          "y": 1254.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "8fcb2436-5892-42fe-acf9-afeb9532e040": {
+        "position": {
+          "x": 2346.4,
+          "y": 1349.6
+        }
+      },
+      "2e7a3129-12a1-4944-aef3-c5d79e28d409": {
+        "position": {
+          "x": 1595.2,
+          "y": 1045.6
+        }
+      },
+      "33f23471-1c24-430e-953b-50a389764f94": {
+        "position": {
+          "x": 2360,
+          "y": 1128
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "4fa3435d-8ca1-429b-89c9-42659fb7c55e": {
+        "position": {
+          "x": 2370.4,
+          "y": 917.6
+        }
+      },
+      "5853a4d0-a264-48b8-ba6b-31ad96db90fb": {
+        "position": {
+          "x": 1858.4,
+          "y": 2604
+        }
+      },
+      "6b660b72-9622-4bfc-977d-83d79176053f": {
+        "position": {
+          "x": 1600.8,
+          "y": 2581.6
+        }
+      },
+      "6c8fba49-8972-406f-b60b-eaf38f91e49d": {
+        "position": {
+          "x": 2289.6,
+          "y": 2676
+        }
+      },
+      "32f28c0d-0f42-4af8-8398-db26a07b27fd": {
+        "position": {
+          "x": 2290.4,
+          "y": 2454.4
+        }
+      },
+      "f66254f0-cd1b-4686-8bdc-7b88e1829e3e": {
+        "position": {
+          "x": 2304,
+          "y": 2232.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "d3f3726c-cfaa-482f-aae3-a8c7c54653ba": {
+        "position": {
+          "x": 2314.4,
+          "y": 2022.4
+        }
+      },
+      "3c8dab72-0714-4e99-8f8d-c260c3f1c33a": {
+        "position": {
+          "x": 4510.4,
+          "y": 753.6
+        },
+        "parameters": {
+          "Attributes": {
+            "Status": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Status"
+        ]
+      },
+      "6984b2ea-7b52-445b-b782-86cf9401646f": {
+        "position": {
+          "x": 3849.6,
+          "y": 775.2
+        },
+        "parameters": {
+          "Attributes": {
+            "apptTime": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "apptTime"
+        ]
+      },
+      "c66e0513-5381-4e20-b23e-701f66480b6c": {
+        "position": {
+          "x": 2776,
+          "y": 292.8
+        }
+      },
+      "7ecd162a-46fd-4502-ba17-4b7fcc5e70cf": {
+        "position": {
+          "x": 2122.4,
+          "y": -275.2
+        },
+        "parameters": {
+          "Attributes": {
+            "appointmentTime": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "appointmentTime"
+        ]
+      },
+      "6175be7d-a146-4335-82df-4514acc13f91": {
+        "position": {
+          "x": 2622.4,
+          "y": -15.2
+        }
+      },
+      "2fee7c0f-3e30-4f89-a390-edd72c75cc8a": {
+        "position": {
+          "x": 2459.2,
+          "y": -300.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "AppointmentBooking"
+          },
+          "LambdaInvocationAttributes": {
+            "appointmentDate": {
+              "useDynamic": true
+            },
+            "appointmentTime": {
+              "useDynamic": true
+            },
+            "phoneNumber": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "appointmentDate": true,
+          "appointmentTime": true,
+          "phoneNumber": true
+        }
+      },
+      "566ba7b1-3a90-45f7-b2dd-d902524c4dd4": {
+        "position": {
+          "x": 3380.8,
+          "y": 1849.6
+        },
+        "parameters": {
+          "Attributes": {
+            "Status": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Status"
+        ]
+      },
+      "6bdea338-1855-4f10-9593-3b1c80ce01bd": {
+        "position": {
+          "x": 599.2,
+          "y": 504
+        }
+      },
+      "e87d6745-5a92-436f-84c0-e18716f7929f": {
+        "position": {
+          "x": 204.8,
+          "y": 46.4
+        }
+      },
+      "7e38c9e8-8a7e-4c18-9841-e4e148273249": {
+        "position": {
+          "x": 1590.4,
+          "y": -280
+        },
+        "parameters": {
+          "Attributes": {
+            "appointmentDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "appointmentDate"
+        ]
+      },
+      "af6c1a34-faff-478d-91a6-af7a3a9c81d8": {
+        "position": {
+          "x": 1660,
+          "y": 1840.8
+        },
+        "parameters": {
+          "Attributes": {
+            "oldDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "oldDate"
+        ]
+      },
+      "e6adbb26-5d32-4450-a2a9-b1ca6ce4d53e": {
+        "position": {
+          "x": 3317.6,
+          "y": 770.4
+        },
+        "parameters": {
+          "Attributes": {
+            "apptDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "apptDate"
+        ]
+      },
+      "9c1d85cc-4cd1-4277-95e7-c082052e6529": {
+        "position": {
+          "x": 1716,
+          "y": 736
+        },
+        "parameters": {
+          "Attributes": {
+            "oldDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "oldDate"
+        ]
+      },
+      "3ad22707-283e-4031-98f0-d9d8c530a614": {
+        "position": {
+          "x": 2248,
+          "y": 740.8
+        },
+        "parameters": {
+          "Attributes": {
+            "oldTime": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "oldTime"
+        ]
+      },
+      "69276f03-1496-4477-882f-415be17b14f2": {
+        "position": {
+          "x": 512.8,
+          "y": 15.2
+        },
+        "conditionMetadata": [
+          {
+            "id": "3ebca51f-7ebc-492a-8627-888febd2722f",
+            "value": "1"
+          },
+          {
+            "id": "2e78c4b0-d6e1-4ac9-8b04-c34ac0598c78",
+            "value": "2"
+          },
+          {
+            "id": "534c4582-c5f0-4a42-afe4-ac96d683a66c",
+            "value": "3"
+          },
+          {
+            "id": "cadad1d4-ae81-4124-a8bc-a9f45ebad19d",
+            "value": "*"
+          }
+        ]
+      },
+      "4dec1960-43ab-4332-b0b8-03cc336350a8": {
+        "position": {
+          "x": 234.4,
+          "y": 460.8
+        }
+      },
+      "b8e87e31-e3a1-44a1-b579-117b19cbbeb7": {
+        "position": {
+          "x": 1530.4,
+          "y": 238.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "49c7f291-7aa7-4870-8a94-ceac4eb46ce3": {
+        "position": {
+          "x": 1568,
+          "y": -12
+        }
+      },
+      "5aa5561a-0373-474b-87e0-6f3c18899b91": {
+        "position": {
+          "x": 2730.4,
+          "y": -328.8
+        },
+        "parameters": {
+          "Attributes": {
+            "Status": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Status"
+        ]
+      },
+      "bc743f72-8377-4d9f-9c52-18a1a0342e70": {
+        "position": {
+          "x": 3170.4,
+          "y": 232.8
+        }
+      },
+      "e8d35d29-0b55-40b7-8298-bb4ae6fabe63": {
+        "position": {
+          "x": 3250.4,
+          "y": -163.2
+        }
+      },
+      "6bd4348d-1e0e-40a7-bf93-f99a89948bb0": {
+        "position": {
+          "x": 3272,
+          "y": -406.4
+        }
+      },
+      "aa39c0b7-5f91-473a-b80f-4c690f1014c1": {
+        "position": {
+          "x": 4219.2,
+          "y": 750.4
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "Reschedule_Therapy_Apointment"
+          },
+          "LambdaInvocationAttributes": {
+            "oldDate": {
+              "useDynamic": true
+            },
+            "oldTime": {
+              "useDynamic": true
+            },
+            "apptDate": {
+              "useDynamic": true
+            },
+            "apptTime": {
+              "useDynamic": true
+            },
+            "phoneNumber": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "oldDate": true,
+          "oldTime": true,
+          "apptDate": true,
+          "apptTime": true,
+          "phoneNumber": true
+        }
+      },
+      "9a4c3a7a-856c-4ffb-9c9f-3d9ba8f5c057": {
+        "position": {
+          "x": 4522.4,
+          "y": 1560
+        }
+      },
+      "b1fe4b9a-d2d9-4cae-9086-92bf6b0d0f16": {
+        "position": {
+          "x": 4467.2,
+          "y": 1281.6
+        }
+      },
+      "f38540b2-c6cd-48f4-83d1-3881024f4ee3": {
+        "position": {
+          "x": 1600,
+          "y": 2359.2
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "b3700398-be82-433a-b2ab-ce3f12e4eb3d": {
+        "position": {
+          "x": 1539.2,
+          "y": 2150.4
+        }
+      },
+      "66933836-bf7d-4162-9ed9-fd2bafb89352": {
+        "position": {
+          "x": 2956.8,
+          "y": 1863.2
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "Cancel_Therapy_Appointment"
+          },
+          "LambdaInvocationAttributes": {
+            "oldDate": {
+              "useDynamic": true
+            },
+            "oldTime": {
+              "useDynamic": true
+            },
+            "phoneNumber": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "oldDate": true,
+          "oldTime": true,
+          "phoneNumber": true
+        }
+      },
+      "d5c9ac91-7f83-4d1a-8901-f0fc38a78ce0": {
+        "position": {
+          "x": 2192,
+          "y": 1845.6
+        },
+        "parameters": {
+          "Attributes": {
+            "oldTime": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "oldTime"
+        ]
+      },
+      "5e5bd383-a42b-4e3a-9155-a5c665c0c706": {
+        "position": {
+          "x": 3958.4,
+          "y": 1846.4
+        }
+      },
+      "9ef76ef0-e69d-41a5-ae89-200e98729e7c": {
+        "position": {
+          "x": 3984,
+          "y": 2050.4
+        }
+      },
+      "a2b34373-4c3f-427b-b35b-f60a2f7d25ef": {
+        "position": {
+          "x": 1241.6,
+          "y": -12.8
+        }
+      },
+      "17b07c3f-103d-4b31-b48a-b3c242235a32": {
+        "position": {
+          "x": 1304.8,
+          "y": -273.6
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "844b3896-e7e4-4760-b724-e93d32ad971d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskDate"
+          }
+        ]
+      },
+      "11bea44d-f01c-46cc-a368-5914422cb406": {
+        "position": {
+          "x": 1196.8,
+          "y": 328
+        }
+      },
+      "3444fad3-b895-4a20-9dde-9ff665d28ff4": {
+        "position": {
+          "x": 1909.6,
+          "y": 25.6
+        }
+      },
+      "152e5977-3365-4d9c-b16f-57d5570b8604": {
+        "position": {
+          "x": 1858.4,
+          "y": -284.8
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "91f0ebb9-0115-4c6d-9ecc-a5b5d764ced3",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskTime"
+          }
+        ]
+      },
+      "8cd62136-9def-4860-8344-8fc88e8a6b05": {
+        "position": {
+          "x": 1923.2,
+          "y": 251.2
+        }
+      },
+      "de6ce35c-f8f7-4426-966e-6cefaa1d75cf": {
+        "position": {
+          "x": 1367.2,
+          "y": 1003.2
+        }
+      },
+      "ace611f1-fd1c-4f0c-84f4-cc6bc1a13e67": {
+        "position": {
+          "x": 1323.2,
+          "y": 1356
+        }
+      },
+      "7f00ee29-d355-461d-a27d-c6b0dde9d515": {
+        "position": {
+          "x": 2035.2,
+          "y": 1041.6
+        }
+      },
+      "7a277a61-5dcf-4cc9-89da-33c774746230": {
+        "position": {
+          "x": 1984,
+          "y": 731.2
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "a607a3c6-f6da-4031-88b9-1923c0132ba1",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskTime"
+          }
+        ]
+      },
+      "f763649a-5f8b-4ccf-9d49-bbf855df2431": {
+        "position": {
+          "x": 2048.8,
+          "y": 1267.2
+        }
+      },
+      "1d42ac11-5e23-4c6a-9409-e467b5a56148": {
+        "position": {
+          "x": 2968.8,
+          "y": 1037.6
+        }
+      },
+      "8c4322f2-c5ed-49f6-9dda-989f91749081": {
+        "position": {
+          "x": 2924.8,
+          "y": 1390.4
+        }
+      },
+      "cc195a2b-a75f-4a17-b6be-c6891f274eac": {
+        "position": {
+          "x": 3636.8,
+          "y": 1076
+        }
+      },
+      "3ff084a0-c1b0-4264-880c-5d489b42eb9f": {
+        "position": {
+          "x": 3650.4,
+          "y": 1301.6
+        }
+      },
+      "bc8d5c2f-58dc-4c50-aab7-2efcfbb3a4ff": {
+        "position": {
+          "x": 5057.6,
+          "y": 740
+        }
+      },
+      "88cc0e10-7643-4694-9b1c-5de4946fcaa3": {
+        "position": {
+          "x": 1430.4,
+          "y": 742.4
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "419a0887-4405-4f45-a0ca-f587cca1a539",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskDate"
+          }
+        ]
+      },
+      "09a1357d-f321-475a-9c31-1f4daae37af0": {
+        "position": {
+          "x": 5057.6,
+          "y": 972
+        }
+      },
+      "2606c647-827c-43ba-ad71-6dd8250288da": {
+        "position": {
+          "x": 3032,
+          "y": 776.8
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "c9164b0b-b0ae-4cc0-9748-8ad7539f23c5",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskDate"
+          }
+        ]
+      },
+      "7378db55-5a36-4568-b78b-96d90c71952e": {
+        "position": {
+          "x": 5053.6,
+          "y": 1182.4
+        }
+      },
+      "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70": {
+        "position": {
+          "x": 3585.6,
+          "y": 765.6
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "6f67502a-99f0-4a73-a4ef-0a03a123d2f8",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskTime"
+          }
+        ]
+      },
+      "debdc444-8b37-495d-90a0-3f049f4d6bff": {
+        "position": {
+          "x": 4800.8,
+          "y": 1124
+        }
+      },
+      "a634db7e-0de8-48a0-bd74-0ab7a96f9351": {
+        "position": {
+          "x": 1979.2,
+          "y": 2146.4
+        }
+      },
+      "2257ed9c-51c4-4594-b672-dc8e22741b62": {
+        "position": {
+          "x": 1928,
+          "y": 1836
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "a7bdd54d-5f75-4012-a293-e88257729715",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskTime"
+          }
+        ]
+      },
+      "866d527b-43ab-4ca0-82cc-98c110a920a7": {
+        "position": {
+          "x": 1992.8,
+          "y": 2372
+        }
+      },
+      "68f3e252-92e7-49c6-8718-c7bbcdd90786": {
+        "position": {
+          "x": 1311.2,
+          "y": 2108
+        }
+      },
+      "dcb254c1-6c57-4343-be66-16a71f47d65b": {
+        "position": {
+          "x": 1374.4,
+          "y": 1847.2
+        },
+        "parameters": {
+          "LexV2Bot": {
+            "AliasArn": {
+              "displayName": "TestBotAlias",
+              "useLexBotDropdown": true,
+              "lexV2BotName": "Therapy_Automatic_Scheduling_"
+            }
+          }
+        },
+        "useLexBotDropdown": true,
+        "lexV2BotName": "Therapy_Automatic_Scheduling_",
+        "lexV2BotAliasName": "TestBotAlias",
+        "conditionMetadata": [
+          {
+            "id": "7347a29c-e234-4890-a62b-ef869c4e0840",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "AskDate"
+          }
+        ]
+      },
+      "9a9ec98f-212c-4068-a7fd-22470201e6ed": {
+        "position": {
+          "x": 1267.2,
+          "y": 2460.8
+        }
+      },
+      "d8f0bc11-c246-46f8-b00f-6b0f229bb49c": {
+        "position": {
+          "x": 5325.6,
+          "y": 754.4
+        }
+      },
+      "270d8db4-c70c-47a4-a126-044f35cd71cf": {
+        "position": {
+          "x": 4785.6,
+          "y": 759.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "4890898d-dcc2-4cc0-b967-4fb6c8cff258",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "400"
+          },
+          {
+            "id": "a5020102-54c0-421d-a319-71d086f4f977",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "404"
+          },
+          {
+            "id": "f6cac570-7d04-4225-8115-72cb35ae498e",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "409"
+          },
+          {
+            "id": "d3029b00-11c1-4751-8304-5e7fdac1b1f8",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "410"
+          }
+        ]
+      },
+      "fc1dc063-c685-4125-8a54-2eb25635fa07": {
+        "position": {
+          "x": 5053.6,
+          "y": 1420.8
+        }
+      },
+      "b7affe1b-1cf2-4898-86a6-825d4aee0db8": {
+        "position": {
+          "x": 4297.6,
+          "y": 2226.4
+        }
+      },
+      "137f315b-804e-4658-a0ed-1e8ed6e9e4d6": {
+        "position": {
+          "x": 3634.4,
+          "y": 1867.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "0f38c660-ad94-4c47-9f10-7039476b73eb",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "400"
+          },
+          {
+            "id": "a06f3124-62c8-48a2-9d02-a9108a2563ae",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "404"
+          }
+        ]
+      },
+      "fc6ad3ab-05ac-4d0a-bb06-0bb3c706c97d": {
+        "position": {
+          "x": 3933.6,
+          "y": 2344
+        }
+      },
+      "c0046fb9-ff85-4811-831d-2be0684a906c": {
+        "position": {
+          "x": 3509.6,
+          "y": -451.2
+        }
+      },
+      "d8d8cd5f-e0a3-42b9-be84-8aabbda4e9d3": {
+        "position": {
+          "x": 2996.8,
+          "y": -317.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "d6d5d5db-f3c4-4a71-a0b3-763bc097664c",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "409"
+          },
+          {
+            "id": "8897b269-332e-4dd7-aefe-6992e2552cf7",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "400"
+          },
+          {
+            "id": "dc65bc29-492b-4283-a231-9be62c8db8d7",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "410"
+          }
+        ]
+      },
+      "2d86806c-ccb6-49df-a13f-39fbce6069de": {
+        "position": {
+          "x": 3256.8,
+          "y": 29.6
+        }
+      }
+    },
+    "Annotations": [],
+    "name": "Therapy_Self_Service_Appointment",
+    "description": "When a Parent wants to book a Self service appointment for his therapy sessions, this flow will be initiated.",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "14001f48-9f38-4d82-87f5-4e7fac853a40",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "ae1338c5-4209-45b6-8ce9-b1d17b20a39d",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "14001f48-9f38-4d82-87f5-4e7fac853a40",
+        "Errors": [
+          {
+            "NextAction": "14001f48-9f38-4d82-87f5-4e7fac853a40",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "14001f48-9f38-4d82-87f5-4e7fac853a40",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "f8d22adb-ce06-4145-990f-6904caa8e65b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "5ebb2fb6-b6e7-412c-baab-a86b353b5626",
+        "Errors": [
+          {
+            "NextAction": "5ebb2fb6-b6e7-412c-baab-a86b353b5626",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "aea75153-cfcf-4991-bb9e-aea75f645f81",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "5ebb2fb6-b6e7-412c-baab-a86b353b5626",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "403fd463-9e1d-4269-8158-bb74aa246b91",
+        "Errors": [
+          {
+            "NextAction": "403fd463-9e1d-4269-8158-bb74aa246b91",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "403fd463-9e1d-4269-8158-bb74aa246b91",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "aea75153-cfcf-4991-bb9e-aea75f645f81",
+        "Errors": [
+          {
+            "NextAction": "aea75153-cfcf-4991-bb9e-aea75f645f81",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "aea75153-cfcf-4991-bb9e-aea75f645f81",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "742670b9-b9fc-4d1d-92d6-909edbda3481",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "7560af03-e28d-47be-8903-6ecae36ae228",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "742670b9-b9fc-4d1d-92d6-909edbda3481",
+        "Errors": [
+          {
+            "NextAction": "742670b9-b9fc-4d1d-92d6-909edbda3481",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "742670b9-b9fc-4d1d-92d6-909edbda3481",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "5c51ea26-cec9-4f24-964b-eacd82497912",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "7560af03-e28d-47be-8903-6ecae36ae228",
+        "Errors": [
+          {
+            "NextAction": "7560af03-e28d-47be-8903-6ecae36ae228",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "77d7f97f-ca40-44b5-a3e8-e8b99846fdc6",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8e2efe47-3ee7-4b3c-8a4a-88b1fedc1570",
+        "Errors": [
+          {
+            "NextAction": "8e2efe47-3ee7-4b3c-8a4a-88b1fedc1570",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "8f69aaa1-0541-4042-8fd2-e4a3d31a8b18",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "5c51ea26-cec9-4f24-964b-eacd82497912",
+        "Errors": [
+          {
+            "NextAction": "5c51ea26-cec9-4f24-964b-eacd82497912",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "70b32d74-adb5-46f5-b441-77eca56ce2e2",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "8e2efe47-3ee7-4b3c-8a4a-88b1fedc1570",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "a922c3ef-91e7-4d9e-8e4d-af24efecb32e",
+        "Errors": [
+          {
+            "NextAction": "a922c3ef-91e7-4d9e-8e4d-af24efecb32e",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "a922c3ef-91e7-4d9e-8e4d-af24efecb32e",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "70b32d74-adb5-46f5-b441-77eca56ce2e2",
+        "Errors": [
+          {
+            "NextAction": "70b32d74-adb5-46f5-b441-77eca56ce2e2",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "70b32d74-adb5-46f5-b441-77eca56ce2e2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "33f643b8-bd47-4a83-915d-45b174282059",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "1fafec42-5c49-4e0d-a32e-e060ad6a912c",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "bd08bb0e-75d1-4f8e-88dc-b843a1325604",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "33f643b8-bd47-4a83-915d-45b174282059",
+        "Errors": [
+          {
+            "NextAction": "33f643b8-bd47-4a83-915d-45b174282059",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "33f643b8-bd47-4a83-915d-45b174282059",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "52d2239e-deee-4663-bb99-99ffecd1f767",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "bd08bb0e-75d1-4f8e-88dc-b843a1325604",
+        "Errors": [
+          {
+            "NextAction": "bd08bb0e-75d1-4f8e-88dc-b843a1325604",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "8fcb2436-5892-42fe-acf9-afeb9532e040",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "1fafec42-5c49-4e0d-a32e-e060ad6a912c",
+        "Errors": [
+          {
+            "NextAction": "1fafec42-5c49-4e0d-a32e-e060ad6a912c",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "1fafec42-5c49-4e0d-a32e-e060ad6a912c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "2e7a3129-12a1-4944-aef3-c5d79e28d409",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "52d2239e-deee-4663-bb99-99ffecd1f767",
+        "Errors": [
+          {
+            "NextAction": "52d2239e-deee-4663-bb99-99ffecd1f767",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "33f23471-1c24-430e-953b-50a389764f94",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "8fcb2436-5892-42fe-acf9-afeb9532e040",
+        "Errors": [
+          {
+            "NextAction": "8fcb2436-5892-42fe-acf9-afeb9532e040",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "4fa3435d-8ca1-429b-89c9-42659fb7c55e",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "33f23471-1c24-430e-953b-50a389764f94",
+        "Errors": [
+          {
+            "NextAction": "33f23471-1c24-430e-953b-50a389764f94",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "5853a4d0-a264-48b8-ba6b-31ad96db90fb",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "6b660b72-9622-4bfc-977d-83d79176053f",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "5853a4d0-a264-48b8-ba6b-31ad96db90fb",
+        "Errors": [
+          {
+            "NextAction": "5853a4d0-a264-48b8-ba6b-31ad96db90fb",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "5853a4d0-a264-48b8-ba6b-31ad96db90fb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "6c8fba49-8972-406f-b60b-eaf38f91e49d",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {},
+      "Identifier": "32f28c0d-0f42-4af8-8398-db26a07b27fd",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "6c8fba49-8972-406f-b60b-eaf38f91e49d",
+        "Errors": [
+          {
+            "NextAction": "6c8fba49-8972-406f-b60b-eaf38f91e49d",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "6c8fba49-8972-406f-b60b-eaf38f91e49d",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "f66254f0-cd1b-4686-8bdc-7b88e1829e3e",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "32f28c0d-0f42-4af8-8398-db26a07b27fd",
+        "Errors": [
+          {
+            "NextAction": "32f28c0d-0f42-4af8-8398-db26a07b27fd",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "d3f3726c-cfaa-482f-aae3-a8c7c54653ba",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "f66254f0-cd1b-4686-8bdc-7b88e1829e3e",
+        "Errors": [
+          {
+            "NextAction": "f66254f0-cd1b-4686-8bdc-7b88e1829e3e",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Status": "$.External.statusCode"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "3c8dab72-0714-4e99-8f8d-c260c3f1c33a",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "270d8db4-c70c-47a4-a126-044f35cd71cf",
+        "Errors": [
+          {
+            "NextAction": "270d8db4-c70c-47a4-a126-044f35cd71cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "apptTime": "$.Lex.Slots.Time"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "6984b2ea-7b52-445b-b782-86cf9401646f",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "aa39c0b7-5f91-473a-b80f-4c690f1014c1",
+        "Errors": [
+          {
+            "NextAction": "aa39c0b7-5f91-473a-b80f-4c690f1014c1",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "c66e0513-5381-4e20-b23e-701f66480b6c",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "appointmentTime": "$.Lex.Slots.Time"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "7ecd162a-46fd-4502-ba17-4b7fcc5e70cf",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "2fee7c0f-3e30-4f89-a390-edd72c75cc8a",
+        "Errors": [
+          {
+            "NextAction": "2fee7c0f-3e30-4f89-a390-edd72c75cc8a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Error in Lambda Function."
+      },
+      "Identifier": "6175be7d-a146-4335-82df-4514acc13f91",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "c66e0513-5381-4e20-b23e-701f66480b6c",
+        "Errors": [
+          {
+            "NextAction": "c66e0513-5381-4e20-b23e-701f66480b6c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-west-2:438465127035:function:AppointmentBooking",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "appointmentDate": "$.Attributes.appointmentDate",
+          "appointmentTime": "$.Attributes.appointmentTime",
+          "phoneNumber": "$.CustomerEndpoint.Address"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "2fee7c0f-3e30-4f89-a390-edd72c75cc8a",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "5aa5561a-0373-474b-87e0-6f3c18899b91",
+        "Errors": [
+          {
+            "NextAction": "6175be7d-a146-4335-82df-4514acc13f91",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Status": "$.External.statusCode"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "566ba7b1-3a90-45f7-b2dd-d902524c4dd4",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "137f315b-804e-4658-a0ed-1e8ed6e9e4d6",
+        "Errors": [
+          {
+            "NextAction": "137f315b-804e-4658-a0ed-1e8ed6e9e4d6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Please listen carefully to the following menu options again.\n\n Press **1** to **book a new appointment**.  \n Press **2** to **reschedule an existing appointment**.  \n Press **3** to **cancel an appointment**.  \n Press **∗** to repeat the menu options.  \n\nKindly choose an option by pressing the corresponding number on your keypad.\n"
+      },
+      "Identifier": "6bdea338-1855-4f10-9593-3b1c80ce01bd",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "69276f03-1496-4477-882f-415be17b14f2",
+        "Errors": [
+          {
+            "NextAction": "69276f03-1496-4477-882f-415be17b14f2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "e87d6745-5a92-436f-84c0-e18716f7929f",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "69276f03-1496-4477-882f-415be17b14f2"
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "appointmentDate": "$.Lex.Slots.Date"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "7e38c9e8-8a7e-4c18-9841-e4e148273249",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+        "Errors": [
+          {
+            "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "oldDate": "$.Lex.Slots.Date"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "af6c1a34-faff-478d-91a6-af7a3a9c81d8",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "2257ed9c-51c4-4594-b672-dc8e22741b62",
+        "Errors": [
+          {
+            "NextAction": "2257ed9c-51c4-4594-b672-dc8e22741b62",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "apptDate": "$.Lex.Slots.Date"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "e6adbb26-5d32-4450-a2a9-b1ca6ce4d53e",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+        "Errors": [
+          {
+            "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "oldDate": "$.Lex.Slots.Date"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "9c1d85cc-4cd1-4277-95e7-c082052e6529",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "7a277a61-5dcf-4cc9-89da-33c774746230",
+        "Errors": [
+          {
+            "NextAction": "7a277a61-5dcf-4cc9-89da-33c774746230",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "oldTime": "$.Lex.Slots.Time"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "3ad22707-283e-4031-98f0-d9d8c530a614",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+        "Errors": [
+          {
+            "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "You have successfully chosen the Therapy Self-Service Appointment.  \nPlease listen carefully to the following options:\n\n Press **1** to **book a new appointment**.  \n Press **2** to **reschedule an existing appointment**.  \n Press **3** to **cancel an appointment**.  \n Press **∗** to repeat the menu options.  \n\nPlease select your desired option by pressing the corresponding number on your keypad.\n"
+      },
+      "Identifier": "69276f03-1496-4477-882f-415be17b14f2",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "4dec1960-43ab-4332-b0b8-03cc336350a8",
+        "Conditions": [
+          {
+            "NextAction": "17b07c3f-103d-4b31-b48a-b3c242235a32",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "3"
+              ]
+            }
+          },
+          {
+            "NextAction": "6bdea338-1855-4f10-9593-3b1c80ce01bd",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "*"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "4dec1960-43ab-4332-b0b8-03cc336350a8",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "4dec1960-43ab-4332-b0b8-03cc336350a8",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "4dec1960-43ab-4332-b0b8-03cc336350a8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Unfortunately, you have not selected any option in the specified time,\nPlease listen to the menu carefully and select an option to proceed forward."
+      },
+      "Identifier": "4dec1960-43ab-4332-b0b8-03cc336350a8",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "69276f03-1496-4477-882f-415be17b14f2",
+        "Errors": [
+          {
+            "NextAction": "69276f03-1496-4477-882f-415be17b14f2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "b8e87e31-e3a1-44a1-b579-117b19cbbeb7",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "ae1338c5-4209-45b6-8ce9-b1d17b20a39d",
+        "Errors": [
+          {
+            "NextAction": "ae1338c5-4209-45b6-8ce9-b1d17b20a39d",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded the maximum number of attempts.  \nWe are now adding you to the queue.  \nAn agent will connect with you shortly. Please stay on the line.\n"
+      },
+      "Identifier": "49c7f291-7aa7-4870-8a94-ceac4eb46ce3",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "b8e87e31-e3a1-44a1-b579-117b19cbbeb7",
+        "Errors": [
+          {
+            "NextAction": "b8e87e31-e3a1-44a1-b579-117b19cbbeb7",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Status": "$.External.statusCode"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "5aa5561a-0373-474b-87e0-6f3c18899b91",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "d8d8cd5f-e0a3-42b9-be84-8aabbda4e9d3",
+        "Errors": [
+          {
+            "NextAction": "d8d8cd5f-e0a3-42b9-be84-8aabbda4e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Our appointment booking hours are from **8 AM to 5 PM.  \nPlease choose a time within our available working hours.\n"
+      },
+      "Identifier": "bc743f72-8377-4d9f-9c52-18a1a0342e70",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+        "Errors": [
+          {
+            "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "The selected time slot is no longer available.  \nPlease choose a different date and time for your appointment.\n"
+      },
+      "Identifier": "e8d35d29-0b55-40b7-8298-bb4ae6fabe63",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "17b07c3f-103d-4b31-b48a-b3c242235a32",
+        "Errors": [
+          {
+            "NextAction": "c0046fb9-ff85-4811-831d-2be0684a906c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, there has been some error in booking your appointment, Please try again later."
+      },
+      "Identifier": "6bd4348d-1e0e-40a7-bf93-f99a89948bb0",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "c0046fb9-ff85-4811-831d-2be0684a906c",
+        "Errors": [
+          {
+            "NextAction": "c0046fb9-ff85-4811-831d-2be0684a906c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-west-2:438465127035:function:Reschedule_Therapy_Apointment",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "oldDate": "$.Attributes.oldDate",
+          "oldTime": "$.Attributes.oldTime",
+          "apptDate": "$.Attributes.apptDate",
+          "apptTime": "$.Attributes.apptTime",
+          "phoneNumber": "$.CustomerEndpoint.Address"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "aa39c0b7-5f91-473a-b80f-4c690f1014c1",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "3c8dab72-0714-4e99-8f8d-c260c3f1c33a",
+        "Errors": [
+          {
+            "NextAction": "b1fe4b9a-d2d9-4cae-9086-92bf6b0d0f16",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "9a4c3a7a-856c-4ffb-9c9f-3d9ba8f5c057",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Technical Error at LAMBDA Function"
+      },
+      "Identifier": "b1fe4b9a-d2d9-4cae-9086-92bf6b0d0f16",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "9a4c3a7a-856c-4ffb-9c9f-3d9ba8f5c057",
+        "Errors": [
+          {
+            "NextAction": "9a4c3a7a-856c-4ffb-9c9f-3d9ba8f5c057",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "f38540b2-c6cd-48f4-83d1-3881024f4ee3",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "6b660b72-9622-4bfc-977d-83d79176053f",
+        "Errors": [
+          {
+            "NextAction": "6b660b72-9622-4bfc-977d-83d79176053f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have exceeded your limit, we are adding you to the queue, an agent will connect with you shortly."
+      },
+      "Identifier": "b3700398-be82-433a-b2ab-ce3f12e4eb3d",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "f38540b2-c6cd-48f4-83d1-3881024f4ee3",
+        "Errors": [
+          {
+            "NextAction": "f38540b2-c6cd-48f4-83d1-3881024f4ee3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-west-2:438465127035:function:Cancel_Therapy_Appointment",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "oldDate": "$.Attributes.oldDate",
+          "oldTime": "$.Attributes.oldTime",
+          "phoneNumber": "$.CustomerEndpoint.Address"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "66933836-bf7d-4162-9ed9-fd2bafb89352",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "566ba7b1-3a90-45f7-b2dd-d902524c4dd4",
+        "Errors": [
+          {
+            "NextAction": "b1fe4b9a-d2d9-4cae-9086-92bf6b0d0f16",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "oldTime": "$.Lex.Slots.Time"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "d5c9ac91-7f83-4d1a-8901-f0fc38a78ce0",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "66933836-bf7d-4162-9ed9-fd2bafb89352",
+        "Errors": [
+          {
+            "NextAction": "66933836-bf7d-4162-9ed9-fd2bafb89352",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, there has been some error in Cancelling your appointment, Please Call us back again"
+      },
+      "Identifier": "5e5bd383-a42b-4e3a-9155-a5c665c0c706",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "b7affe1b-1cf2-4898-86a6-825d4aee0db8",
+        "Errors": [
+          {
+            "NextAction": "b7affe1b-1cf2-4898-86a6-825d4aee0db8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "The Appointment details that you have mentioned for cancelling your booking are not Not Found, Please try Again"
+      },
+      "Identifier": "9ef76ef0-e69d-41a5-ae89-200e98729e7c",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+        "Errors": [
+          {
+            "NextAction": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "a2b34373-4c3f-427b-b35b-f60a2f7d25ef",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "49c7f291-7aa7-4870-8a94-ceac4eb46ce3",
+        "Conditions": [
+          {
+            "NextAction": "11bea44d-f01c-46cc-a368-5914422cb406",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "49c7f291-7aa7-4870-8a94-ceac4eb46ce3",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Which Date do you want to Book an appointment",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "17b07c3f-103d-4b31-b48a-b3c242235a32",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "a2b34373-4c3f-427b-b35b-f60a2f7d25ef",
+        "Conditions": [
+          {
+            "NextAction": "7e38c9e8-8a7e-4c18-9841-e4e148273249",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskDate"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "a2b34373-4c3f-427b-b35b-f60a2f7d25ef",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "a2b34373-4c3f-427b-b35b-f60a2f7d25ef",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the date you provided for booking.  \nPlease try again by saying the date."
+      },
+      "Identifier": "11bea44d-f01c-46cc-a368-5914422cb406",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "17b07c3f-103d-4b31-b48a-b3c242235a32",
+        "Errors": [
+          {
+            "NextAction": "17b07c3f-103d-4b31-b48a-b3c242235a32",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "3444fad3-b895-4a20-9dde-9ff665d28ff4",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "f8d22adb-ce06-4145-990f-6904caa8e65b",
+        "Conditions": [
+          {
+            "NextAction": "8cd62136-9def-4860-8344-8fc88e8a6b05",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "f8d22adb-ce06-4145-990f-6904caa8e65b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "At What Time do you want to Book an appointment",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "152e5977-3365-4d9c-b16f-57d5570b8604",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "3444fad3-b895-4a20-9dde-9ff665d28ff4",
+        "Conditions": [
+          {
+            "NextAction": "7ecd162a-46fd-4502-ba17-4b7fcc5e70cf",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskTime"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "3444fad3-b895-4a20-9dde-9ff665d28ff4",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "3444fad3-b895-4a20-9dde-9ff665d28ff4",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the time you provided for booking your appointment.  \n"
+      },
+      "Identifier": "8cd62136-9def-4860-8344-8fc88e8a6b05",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+        "Errors": [
+          {
+            "NextAction": "152e5977-3365-4d9c-b16f-57d5570b8604",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "de6ce35c-f8f7-4426-966e-6cefaa1d75cf",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "2e7a3129-12a1-4944-aef3-c5d79e28d409",
+        "Conditions": [
+          {
+            "NextAction": "ace611f1-fd1c-4f0c-84f4-cc6bc1a13e67",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "2e7a3129-12a1-4944-aef3-c5d79e28d409",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the date you provided for rescheduling your booking.  \n"
+      },
+      "Identifier": "ace611f1-fd1c-4f0c-84f4-cc6bc1a13e67",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+        "Errors": [
+          {
+            "NextAction": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "7f00ee29-d355-461d-a27d-c6b0dde9d515",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "4fa3435d-8ca1-429b-89c9-42659fb7c55e",
+        "Conditions": [
+          {
+            "NextAction": "f763649a-5f8b-4ccf-9d49-bbf855df2431",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "4fa3435d-8ca1-429b-89c9-42659fb7c55e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "What was your previuos Appointment Time",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "7a277a61-5dcf-4cc9-89da-33c774746230",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "7f00ee29-d355-461d-a27d-c6b0dde9d515",
+        "Conditions": [
+          {
+            "NextAction": "3ad22707-283e-4031-98f0-d9d8c530a614",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskTime"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "7f00ee29-d355-461d-a27d-c6b0dde9d515",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "7f00ee29-d355-461d-a27d-c6b0dde9d515",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the time you provided for rescheduling your booking.  \n"
+      },
+      "Identifier": "f763649a-5f8b-4ccf-9d49-bbf855df2431",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "7a277a61-5dcf-4cc9-89da-33c774746230",
+        "Errors": [
+          {
+            "NextAction": "7a277a61-5dcf-4cc9-89da-33c774746230",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "1d42ac11-5e23-4c6a-9409-e467b5a56148",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "8f69aaa1-0541-4042-8fd2-e4a3d31a8b18",
+        "Conditions": [
+          {
+            "NextAction": "8c4322f2-c5ed-49f6-9dda-989f91749081",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "8f69aaa1-0541-4042-8fd2-e4a3d31a8b18",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the date you provided for reschedule your booking.  "
+      },
+      "Identifier": "8c4322f2-c5ed-49f6-9dda-989f91749081",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+        "Errors": [
+          {
+            "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "cc195a2b-a75f-4a17-b6be-c6891f274eac",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "77d7f97f-ca40-44b5-a3e8-e8b99846fdc6",
+        "Conditions": [
+          {
+            "NextAction": "3ff084a0-c1b0-4264-880c-5d489b42eb9f",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "77d7f97f-ca40-44b5-a3e8-e8b99846fdc6",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the time you provided for reschedule your booking. "
+      },
+      "Identifier": "3ff084a0-c1b0-4264-880c-5d489b42eb9f",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+        "Errors": [
+          {
+            "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, there has been some error in rescheduling your appointment. Please try again later."
+      },
+      "Identifier": "bc8d5c2f-58dc-4c50-aab7-2efcfbb3a4ff",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "d8f0bc11-c246-46f8-b00f-6b0f229bb49c",
+        "Errors": [
+          {
+            "NextAction": "d8f0bc11-c246-46f8-b00f-6b0f229bb49c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "What was your previously booked appointment date.",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "de6ce35c-f8f7-4426-966e-6cefaa1d75cf",
+        "Conditions": [
+          {
+            "NextAction": "9c1d85cc-4cd1-4277-95e7-c082052e6529",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskDate"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "de6ce35c-f8f7-4426-966e-6cefaa1d75cf",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "de6ce35c-f8f7-4426-966e-6cefaa1d75cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Old Appointment Details that you have mentioned are not found. Please re-try again."
+      },
+      "Identifier": "09a1357d-f321-475a-9c31-1f4daae37af0",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+        "Errors": [
+          {
+            "NextAction": "88cc0e10-7643-4694-9b1c-5de4946fcaa3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Which date you want to reschedule your appointment",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "2606c647-827c-43ba-ad71-6dd8250288da",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "1d42ac11-5e23-4c6a-9409-e467b5a56148",
+        "Conditions": [
+          {
+            "NextAction": "e6adbb26-5d32-4450-a2a9-b1ca6ce4d53e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskDate"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "1d42ac11-5e23-4c6a-9409-e467b5a56148",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "1d42ac11-5e23-4c6a-9409-e467b5a56148",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "The selected time slot is no longer available.  \nPlease choose a different date and time for your appointment.\n"
+      },
+      "Identifier": "7378db55-5a36-4568-b78b-96d90c71952e",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+        "Errors": [
+          {
+            "NextAction": "2606c647-827c-43ba-ad71-6dd8250288da",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "At What Time do you want to reschedule your appointment time",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "cc195a2b-a75f-4a17-b6be-c6891f274eac",
+        "Conditions": [
+          {
+            "NextAction": "6984b2ea-7b52-445b-b782-86cf9401646f",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskTime"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "cc195a2b-a75f-4a17-b6be-c6891f274eac",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "cc195a2b-a75f-4a17-b6be-c6891f274eac",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Our appointment booking hours are from **8 AM to 5 PM.  \nPlease choose a time within our available working hours.\n"
+      },
+      "Identifier": "debdc444-8b37-495d-90a0-3f049f4d6bff",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+        "Errors": [
+          {
+            "NextAction": "dd5d0ff9-4d3c-4d53-becc-3c8bb137ab70",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "a634db7e-0de8-48a0-bd74-0ab7a96f9351",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "d3f3726c-cfaa-482f-aae3-a8c7c54653ba",
+        "Conditions": [
+          {
+            "NextAction": "866d527b-43ab-4ca0-82cc-98c110a920a7",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "d3f3726c-cfaa-482f-aae3-a8c7c54653ba",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "What was your previuos Appointment Time",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "2257ed9c-51c4-4594-b672-dc8e22741b62",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "a634db7e-0de8-48a0-bd74-0ab7a96f9351",
+        "Conditions": [
+          {
+            "NextAction": "d5c9ac91-7f83-4d1a-8901-f0fc38a78ce0",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskTime"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "a634db7e-0de8-48a0-bd74-0ab7a96f9351",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "a634db7e-0de8-48a0-bd74-0ab7a96f9351",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the time you provided for cancelling your booking.  \n"
+      },
+      "Identifier": "866d527b-43ab-4ca0-82cc-98c110a920a7",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "2257ed9c-51c4-4594-b672-dc8e22741b62",
+        "Errors": [
+          {
+            "NextAction": "2257ed9c-51c4-4594-b672-dc8e22741b62",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "68f3e252-92e7-49c6-8718-c7bbcdd90786",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "b3700398-be82-433a-b2ab-ce3f12e4eb3d",
+        "Conditions": [
+          {
+            "NextAction": "9a9ec98f-212c-4068-a7fd-22470201e6ed",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "b3700398-be82-433a-b2ab-ce3f12e4eb3d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "At what date did you book your appointment.",
+        "LexV2Bot": {
+          "AliasArn": "arn:aws:lex:us-west-2:438465127035:bot-alias/1CHL9XAJ8C/TSTALIASID"
+        }
+      },
+      "Identifier": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+      "Type": "ConnectParticipantWithLexBot",
+      "Transitions": {
+        "NextAction": "68f3e252-92e7-49c6-8718-c7bbcdd90786",
+        "Conditions": [
+          {
+            "NextAction": "af6c1a34-faff-478d-91a6-af7a3a9c81d8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "AskDate"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "68f3e252-92e7-49c6-8718-c7bbcdd90786",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "68f3e252-92e7-49c6-8718-c7bbcdd90786",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "I’m sorry, but I didn’t understand the date you provided for cancelling your booking.  "
+      },
+      "Identifier": "9a9ec98f-212c-4068-a7fd-22470201e6ed",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+        "Errors": [
+          {
+            "NextAction": "dcb254c1-6c57-4343-be66-16a71f47d65b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "d8f0bc11-c246-46f8-b00f-6b0f229bb49c",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.Status"
+      },
+      "Identifier": "270d8db4-c70c-47a4-a126-044f35cd71cf",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "fc1dc063-c685-4125-8a54-2eb25635fa07",
+        "Conditions": [
+          {
+            "NextAction": "bc8d5c2f-58dc-4c50-aab7-2efcfbb3a4ff",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "400"
+              ]
+            }
+          },
+          {
+            "NextAction": "09a1357d-f321-475a-9c31-1f4daae37af0",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "404"
+              ]
+            }
+          },
+          {
+            "NextAction": "7378db55-5a36-4568-b78b-96d90c71952e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "409"
+              ]
+            }
+          },
+          {
+            "NextAction": "debdc444-8b37-495d-90a0-3f049f4d6bff",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "410"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "fc1dc063-c685-4125-8a54-2eb25635fa07",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have successfully rescheduled your appointment to {$.Attributes.apptDate} at {$.Attributes.apptTime}.\nThank you for reaching out to us."
+      },
+      "Identifier": "fc1dc063-c685-4125-8a54-2eb25635fa07",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "d8f0bc11-c246-46f8-b00f-6b0f229bb49c",
+        "Errors": [
+          {
+            "NextAction": "d8f0bc11-c246-46f8-b00f-6b0f229bb49c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "b7affe1b-1cf2-4898-86a6-825d4aee0db8",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.Status"
+      },
+      "Identifier": "137f315b-804e-4658-a0ed-1e8ed6e9e4d6",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "fc6ad3ab-05ac-4d0a-bb06-0bb3c706c97d",
+        "Conditions": [
+          {
+            "NextAction": "5e5bd383-a42b-4e3a-9155-a5c665c0c706",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "400"
+              ]
+            }
+          },
+          {
+            "NextAction": "9ef76ef0-e69d-41a5-ae89-200e98729e7c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "404"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "fc6ad3ab-05ac-4d0a-bb06-0bb3c706c97d",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Your Appointment on {$.Attributes.oldDate} at {$.Attributes.oldTime} has been Successfully Cancelled.\nThank you for reaching out to us."
+      },
+      "Identifier": "fc6ad3ab-05ac-4d0a-bb06-0bb3c706c97d",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "b7affe1b-1cf2-4898-86a6-825d4aee0db8",
+        "Errors": [
+          {
+            "NextAction": "b7affe1b-1cf2-4898-86a6-825d4aee0db8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "c0046fb9-ff85-4811-831d-2be0684a906c",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.Status"
+      },
+      "Identifier": "d8d8cd5f-e0a3-42b9-be84-8aabbda4e9d3",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "2d86806c-ccb6-49df-a13f-39fbce6069de",
+        "Conditions": [
+          {
+            "NextAction": "e8d35d29-0b55-40b7-8298-bb4ae6fabe63",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "409"
+              ]
+            }
+          },
+          {
+            "NextAction": "6bd4348d-1e0e-40a7-bf93-f99a89948bb0",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "400"
+              ]
+            }
+          },
+          {
+            "NextAction": "bc743f72-8377-4d9f-9c52-18a1a0342e70",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "410"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "2d86806c-ccb6-49df-a13f-39fbce6069de",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You have successfully booked your appointment on {$.Attributes.appointmentDate} at {$.Attributes.appointmentTime}.\nThank you for reaching out to us."
+      },
+      "Identifier": "2d86806c-ccb6-49df-a13f-39fbce6069de",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "c0046fb9-ff85-4811-831d-2be0684a906c",
+        "Errors": [
+          {
+            "NextAction": "c0046fb9-ff85-4811-831d-2be0684a906c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

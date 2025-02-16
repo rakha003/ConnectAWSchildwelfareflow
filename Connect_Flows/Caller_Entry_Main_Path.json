@@ -1,0 +1,931 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "963fa16a-9082-440b-811e-c640b6a75a96",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "963fa16a-9082-440b-811e-c640b6a75a96": {
+        "position": {
+          "x": 140.8,
+          "y": 37.6
+        }
+      },
+      "3bd6fe11-324f-42e8-b054-7cbd465a0eb1": {
+        "position": {
+          "x": 382.4,
+          "y": 42.4
+        },
+        "overrideConsoleVoice": false
+      },
+      "38333dee-de94-4850-aa18-30fdf02bb077": {
+        "position": {
+          "x": 1687.2,
+          "y": 815.2
+        }
+      },
+      "f31c433e-235e-427c-824c-65653643acc5": {
+        "position": {
+          "x": 2821.6,
+          "y": 237.6
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "Sample interruptible queue flow with callback"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "Sample interruptible queue flow with callback",
+          "id": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/contact-flow/034031cf-ecc2-4766-95f2-dcf26e87871e"
+        },
+        "customerOrAgent": true
+      },
+      "89e26b30-0bea-442d-af73-c3923b98e89c": {
+        "position": {
+          "x": 644.8,
+          "y": 36
+        }
+      },
+      "461827a3-ba31-447f-b30b-f26cf0fb7739": {
+        "position": {
+          "x": 1426.4,
+          "y": 787.2
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Therapy_Self_Service_Appointment"
+          }
+        },
+        "ContactFlow": {
+          "text": "Therapy_Self_Service_Appointment"
+        }
+      },
+      "Repeat Menu": {
+        "position": {
+          "x": 964.8,
+          "y": 699.2
+        },
+        "isFriendlyName": true
+      },
+      "f2d67df9-a11a-4a40-a867-79be4820a524": {
+        "position": {
+          "x": 2150.4,
+          "y": 1111.2
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Agent_Appointment_Direct"
+          }
+        },
+        "queue": {
+          "text": "Agent_Appointment_Direct"
+        }
+      },
+      "f2bfc0ac-4814-4368-bf6e-d5055a164e24": {
+        "position": {
+          "x": 1288.8,
+          "y": 305.6
+        },
+        "conditionMetadata": [
+          {
+            "id": "34993550-e86e-4d26-a555-1fad7795c9e2",
+            "value": "1"
+          },
+          {
+            "id": "0365385b-43a2-4a83-b04f-783ba2009cb1",
+            "value": "2"
+          },
+          {
+            "id": "bc559a4d-0785-4850-8aa7-793599d27fcc",
+            "value": "3"
+          },
+          {
+            "id": "ae4ff3f8-f7bc-4352-bb8b-0808db9f56f3",
+            "value": "4"
+          },
+          {
+            "id": "4b0782d7-1728-4c75-a2c8-11040eea45f7",
+            "value": "5"
+          },
+          {
+            "id": "6ba7f93a-9050-4b78-b503-8cabc20606b1",
+            "value": "#"
+          }
+        ]
+      },
+      "86e746cc-66ad-4f61-b3f6-bef70d9b54bb": {
+        "position": {
+          "x": 1684.8,
+          "y": 46.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "80ac032e-6349-4197-88f4-c0d4069f681f",
+            "operator": {
+              "name": "Contains",
+              "value": "Contains",
+              "shortDisplay": "contains"
+            },
+            "value": "true"
+          },
+          {
+            "id": "62b1b89e-639a-4dfc-bdf7-4adc26e1e6cd",
+            "operator": {
+              "name": "Contains",
+              "value": "Contains",
+              "shortDisplay": "contains"
+            },
+            "value": "false"
+          }
+        ]
+      },
+      "606b30fb-3838-4b1a-8200-c293603b7db8": {
+        "position": {
+          "x": 1429.6,
+          "y": 44
+        },
+        "parameters": {
+          "Attributes": {
+            "isHoliday": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "isHoliday"
+        ]
+      },
+      "Invoke Lambda - Holiday Tracker": {
+        "position": {
+          "x": 1168.8,
+          "y": 32.8
+        },
+        "isFriendlyName": true,
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "Holiday_Tracker"
+          }
+        },
+        "dynamicMetadata": {}
+      },
+      "Play Prompt - Welcome Message": {
+        "position": {
+          "x": 896,
+          "y": 30.4
+        },
+        "isFriendlyName": true
+      },
+      "7c8d6082-7c3e-4bc2-a371-a63a133f85fb": {
+        "position": {
+          "x": 2457.6,
+          "y": -41.6
+        }
+      },
+      "Play Prompt - Holiday Closure": {
+        "position": {
+          "x": 1928,
+          "y": 27.2
+        },
+        "isFriendlyName": true
+      },
+      "Play Prompt - Error Message": {
+        "position": {
+          "x": 2189.6,
+          "y": -62.4
+        },
+        "isFriendlyName": true
+      },
+      "Set remaining required attributes for VMX3": {
+        "position": {
+          "x": 3056.8,
+          "y": 500
+        },
+        "isFriendlyName": true,
+        "parameters": {
+          "Attributes": {
+            "vmx3_from": {
+              "useDynamic": true
+            },
+            "vmx3_queue_arn": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "vmx3_from",
+          "vmx3_queue_arn"
+        ]
+      },
+      "913b492c-9feb-471a-b62b-b7297c3e39b2": {
+        "position": {
+          "x": 3301.6,
+          "y": 258.4
+        }
+      },
+      "Play Prompt - Transferring to Queue": {
+        "position": {
+          "x": 3060,
+          "y": 255.2
+        },
+        "isFriendlyName": true
+      },
+      "4cac312f-89ea-4034-93cd-4f10e98a70b8": {
+        "position": {
+          "x": 2728,
+          "y": 1109.6
+        }
+      },
+      "Check Staffing - Available Agents": {
+        "position": {
+          "x": 2532,
+          "y": 318.4
+        },
+        "isFriendlyName": true
+      },
+      "Play Prompt - No Agents Available": {
+        "position": {
+          "x": 2617.6,
+          "y": 727.2
+        },
+        "isFriendlyName": true
+      },
+      "7ab8856d-7434-49f5-9304-72581797dc1b": {
+        "position": {
+          "x": 2136.8,
+          "y": 557.6
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Lawyer Queue"
+          }
+        },
+        "queue": {
+          "text": "Lawyer Queue"
+        }
+      },
+      "69869a44-bb0a-4923-91d1-4ce1b9e24633": {
+        "position": {
+          "x": 2129.6,
+          "y": 324.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "26e95047-03db-41d6-ae51-f6417f3c029b": {
+        "position": {
+          "x": 2145.6,
+          "y": 849.6
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "School Personnel Queue"
+          }
+        },
+        "queue": {
+          "text": "School Personnel Queue"
+        }
+      },
+      "a4e3fc6a-a7a1-4b61-9be4-c5c3b05aaa8a": {
+        "position": {
+          "x": 3831.2,
+          "y": 505.6
+        }
+      },
+      "906a5ba0-10f9-4388-8b54-6f270f2efdc2": {
+        "position": {
+          "x": 3352,
+          "y": 500
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "VMX3_Main_VM_Module_rakhaprojects"
+          }
+        },
+        "contactFlowModuleName": "VMX3_Main_VM_Module_rakhaprojects"
+      },
+      "548bb9b7-d405-4344-a324-bc102d9894ee": {
+        "position": {
+          "x": 3692.8,
+          "y": 739.2
+        }
+      },
+      "edb85453-8ec1-4e9a-8ab2-c94f05b57072": {
+        "position": {
+          "x": 2890.4,
+          "y": 1582.4
+        }
+      },
+      "09e22cab-41df-4ffb-9219-8cdc5e41c9dd": {
+        "position": {
+          "x": 2341.6,
+          "y": 1316
+        }
+      },
+      "3d504b27-b6f4-4de6-bf73-aafb9d327bc2": {
+        "position": {
+          "x": 2585.6,
+          "y": 1498.4
+        }
+      }
+    },
+    "Annotations": [],
+    "name": "Caller_Entry_Main_Path",
+    "description": "",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "963fa16a-9082-440b-811e-c640b6a75a96",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "3bd6fe11-324f-42e8-b054-7cbd465a0eb1"
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechVoice": "Matthew"
+      },
+      "Identifier": "3bd6fe11-324f-42e8-b054-7cbd465a0eb1",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "89e26b30-0bea-442d-af73-c3923b98e89c"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "38333dee-de94-4850-aa18-30fdf02bb077",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/contact-flow/034031cf-ecc2-4766-95f2-dcf26e87871e"
+        }
+      },
+      "Identifier": "f31c433e-235e-427c-824c-65653643acc5",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "Play Prompt - Transferring to Queue",
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - Transferring to Queue",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        }
+      },
+      "Identifier": "89e26b30-0bea-442d-af73-c3923b98e89c",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "Play Prompt - Welcome Message"
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/contact-flow/438094fb-5d1f-46ce-adb9-000bac9376d7"
+      },
+      "Identifier": "461827a3-ba31-447f-b30b-f26cf0fb7739",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "38333dee-de94-4850-aa18-30fdf02bb077",
+        "Errors": [
+          {
+            "NextAction": "38333dee-de94-4850-aa18-30fdf02bb077",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Please listen carefully to the following menu options again.\n\nTo report child abuse, press 1.  \nIf you are a lawyer or legal professional, press 2.  \nIf you are a school personnel or school worker, press 3.  \nIf you are a biological parent seeking to book a therapy appointment, press 4.  \nTo book a general appointment for other services, press 5.  \n\nKindly choose an option by pressing the corresponding number on your keypad.\n"
+      },
+      "Identifier": "Repeat Menu",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+        "Errors": [
+          {
+            "NextAction": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/df1d849c-3d0b-4cd9-bbd1-630ca56a63db"
+      },
+      "Identifier": "f2d67df9-a11a-4a40-a867-79be4820a524",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "09e22cab-41df-4ffb-9219-8cdc5e41c9dd",
+        "Errors": [
+          {
+            "NextAction": "09e22cab-41df-4ffb-9219-8cdc5e41c9dd",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Thank you for contacting the Child Welfare Department.  \nPlease listen carefully to the following menu options:\n\nTo **report child abuse**, press **1**.  \nIf you are a **lawyer or legal professional**, press **2**.  \nIf you are a **school personnel or school worker**, press **3**.  \nIf you are a **biological parent seeking to book a therapy appointment**, press **4**.  \nTo **book a general appointment for other services**, press **5**.  \n\nTo hear these options again, press **#**.  \n"
+      },
+      "Identifier": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "Repeat Menu",
+        "Conditions": [
+          {
+            "NextAction": "69869a44-bb0a-4923-91d1-4ce1b9e24633",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "7ab8856d-7434-49f5-9304-72581797dc1b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "26e95047-03db-41d6-ae51-f6417f3c029b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "3"
+              ]
+            }
+          },
+          {
+            "NextAction": "461827a3-ba31-447f-b30b-f26cf0fb7739",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "4"
+              ]
+            }
+          },
+          {
+            "NextAction": "f2d67df9-a11a-4a40-a867-79be4820a524",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "5"
+              ]
+            }
+          },
+          {
+            "NextAction": "Repeat Menu",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "#"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "Repeat Menu",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "Repeat Menu",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "69869a44-bb0a-4923-91d1-4ce1b9e24633",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.isHoliday"
+      },
+      "Identifier": "86e746cc-66ad-4f61-b3f6-bef70d9b54bb",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+        "Conditions": [
+          {
+            "NextAction": "Play Prompt - Holiday Closure",
+            "Condition": {
+              "Operator": "TextContains",
+              "Operands": [
+                "true"
+              ]
+            }
+          },
+          {
+            "NextAction": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+            "Condition": {
+              "Operator": "TextContains",
+              "Operands": [
+                "false"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "f2bfc0ac-4814-4368-bf6e-d5055a164e24",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "isHoliday": "$.External.isHoliday",
+          "holidayName": "$.External.holidayName"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "606b30fb-3838-4b1a-8200-c293603b7db8",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "86e746cc-66ad-4f61-b3f6-bef70d9b54bb",
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - Error Message",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-west-2:438465127035:function:Holiday_Tracker",
+        "InvocationTimeLimitSeconds": "8",
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "Invoke Lambda - Holiday Tracker",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "606b30fb-3838-4b1a-8200-c293603b7db8",
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - Error Message",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\n    Welcome to the Child Welfare Department.\n    If this is an Emergency, please cancel the call and call \n    <say-as interpret-as=\"digits\">911</say-as>.\n</speak>\n"
+      },
+      "Identifier": "Play Prompt - Welcome Message",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "Invoke Lambda - Holiday Tracker",
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - Error Message",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "7c8d6082-7c3e-4bc2-a371-a63a133f85fb",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Our offices are currently closed in observance of a {$.Attributes.holidayName} holiday.\nPlease call back during regular business hours.\n"
+      },
+      "Identifier": "Play Prompt - Holiday Closure",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "7c8d6082-7c3e-4bc2-a371-a63a133f85fb",
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - Error Message",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "We are experiencing technical difficulties. \nPlease try again later.\n"
+      },
+      "Identifier": "Play Prompt - Error Message",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "7c8d6082-7c3e-4bc2-a371-a63a133f85fb",
+        "Errors": [
+          {
+            "NextAction": "7c8d6082-7c3e-4bc2-a371-a63a133f85fb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "vmx3_from": "$.CustomerEndpoint.Address",
+          "vmx3_lang": "en-US",
+          "vmx3_queue_arn": "$.Queue.ARN",
+          "vmx3_mode": "email"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "Set remaining required attributes for VMX3",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "906a5ba0-10f9-4388-8b54-6f270f2efdc2",
+        "Errors": [
+          {
+            "NextAction": "906a5ba0-10f9-4388-8b54-6f270f2efdc2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "913b492c-9feb-471a-b62b-b7297c3e39b2",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Your call is being transferred to the next available agent.\nPlease hold.\n"
+      },
+      "Identifier": "Play Prompt - Transferring to Queue",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "913b492c-9feb-471a-b62b-b7297c3e39b2",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "4cac312f-89ea-4034-93cd-4f10e98a70b8",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "MetricType": "NumberOfAgentsStaffed"
+      },
+      "Identifier": "Check Staffing - Available Agents",
+      "Type": "CheckMetricData",
+      "Transitions": {
+        "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+        "Conditions": [
+          {
+            "NextAction": "f31c433e-235e-427c-824c-65653643acc5",
+            "Condition": {
+              "Operator": "NumberGreaterThan",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "Play Prompt - No Agents Available",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Currently, all our agents are busy. \nYou can leave a voicemail, and we will get back to you.\n"
+      },
+      "Identifier": "Play Prompt - No Agents Available",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "Set remaining required attributes for VMX3",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/a0a794f7-3d7e-4cee-979e-74c445ad1836"
+      },
+      "Identifier": "7ab8856d-7434-49f5-9304-72581797dc1b",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "Check Staffing - Available Agents",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/e6222af4-7240-439b-b410-281738366185"
+      },
+      "Identifier": "69869a44-bb0a-4923-91d1-4ce1b9e24633",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "Check Staffing - Available Agents",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:438465127035:instance/da45e77a-e7b1-4a10-947c-9b9f41b38579/queue/ab488b38-ef56-486a-a2f1-5906c3bdafaf"
+      },
+      "Identifier": "26e95047-03db-41d6-ae51-f6417f3c029b",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "Check Staffing - Available Agents",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "a4e3fc6a-a7a1-4b61-9be4-c5c3b05aaa8a",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "95772ba6-ee0e-476e-84dc-e97899e39ea8"
+      },
+      "Identifier": "906a5ba0-10f9-4388-8b54-6f270f2efdc2",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "a4e3fc6a-a7a1-4b61-9be4-c5c3b05aaa8a",
+        "Errors": [
+          {
+            "NextAction": "548bb9b7-d405-4344-a324-bc102d9894ee",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, we are experiencing a technical issue. Please try again later."
+      },
+      "Identifier": "548bb9b7-d405-4344-a324-bc102d9894ee",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "a4e3fc6a-a7a1-4b61-9be4-c5c3b05aaa8a",
+        "Errors": [
+          {
+            "NextAction": "a4e3fc6a-a7a1-4b61-9be4-c5c3b05aaa8a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "edb85453-8ec1-4e9a-8ab2-c94f05b57072",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "MetricType": "NumberOfAgentsAvailable"
+      },
+      "Identifier": "09e22cab-41df-4ffb-9219-8cdc5e41c9dd",
+      "Type": "CheckMetricData",
+      "Transitions": {
+        "NextAction": "3d504b27-b6f4-4de6-bf73-aafb9d327bc2",
+        "Conditions": [
+          {
+            "NextAction": "4cac312f-89ea-4034-93cd-4f10e98a70b8",
+            "Condition": {
+              "Operator": "NumberGreaterThan",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "3d504b27-b6f4-4de6-bf73-aafb9d327bc2",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "3d504b27-b6f4-4de6-bf73-aafb9d327bc2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Currently there are no agents available to schedule your appointment, Please try again later."
+      },
+      "Identifier": "3d504b27-b6f4-4de6-bf73-aafb9d327bc2",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "edb85453-8ec1-4e9a-8ab2-c94f05b57072",
+        "Errors": [
+          {
+            "NextAction": "edb85453-8ec1-4e9a-8ab2-c94f05b57072",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}
