@@ -74,5 +74,5 @@ This voicemail flow is based on the **Amazon Connect Voicemail Express** module:
 **Prevents long wait times** using **callback queues**.  
 **Eliminates manual appointment scheduling** through **Lex and DynamoDB**.  
 **Provides 24/7 voicemail support** when agents are unavailable. 
-** Agents can book appointments for users while they are on call **through a Web UI** and can also **check the appointment status**.
+** Agents can book appointments for callers while they are on call **through a Web UI** and can also **check the appointment status for them if they need it**.
 
